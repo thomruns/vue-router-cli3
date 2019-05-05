@@ -1,12 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="hello">
+    <h3>{{ msg }}</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about',
+  name: 'Hello',
   props: {
     msg: String
   }
@@ -14,11 +14,9 @@ export default {
 </script>
 
 <style>
-.about {
-  background: #7baebd;
+.hello {
+  background: #ccc;
+  border: 2px solid #888;
   margin: 5px;
-  border: 2px solid #555;
 }
 </style>
-
-
